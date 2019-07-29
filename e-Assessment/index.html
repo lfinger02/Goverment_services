@@ -1,0 +1,326 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <title>e-Exam</title>
+  </head>
+  <body>
+    
+    <div class="e-exam_header">
+      <div class="profile_image">
+          <img id="logo" class="my_avater" src="images/icons/RSA-Basic-Education-LOGO.jpg">      
+      </div>
+
+        <button data-toggle="modal" data-target="#notification" id="notificationButton" class="notification"><img class="notify" src="images/icons/notification.svg"><div class="active2">25</div></button>
+
+
+        <button data-toggle="modal" data-target="#exam-login" class="sign_up login">Log in</button>
+
+            <div class="modal fade" id="exam-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog login" role="document">
+    <div class="modal-content login">
+      <div class="modal-header login">
+        <img class="scp_icon" src="images/icons/scp_icon.svg">  
+        
+      </div>
+      <h4 class="welcome">Welcome again</h4>
+      <div class="message-login">Practise online for your exams, know exactly which topics you need to focus more on.</div>
+      <div class="modal-body login">
+        
+        <input placeholder="Username" class="login_input" type="text" name="login-username">
+        <input placeholder="Password" class="login_input" type="password" name="login-password">
+        <a href="#" class="s">Forgot your password?</a>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btnlogin">login</button>
+        <button data-dismiss="modal" data-toggle="modal" data-target="#exam-signup" type="button" class="btnlogin register">I'm still new</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <button data-toggle="modal" data-target="#exam-signup" class="sign_up">Sign up</button>
+
+        <div class="modal fade" id="exam-signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog login" role="document">
+    <div class="modal-content login">
+      <div class="modal-header login">
+        <img class="scp_icon" src="images/icons/scp_icon.svg">  
+        
+      </div>
+      <h4 class="welcome">Register for e-Exam</h4>
+
+      <div class="show_1">
+      <div class="message-login register">Which Province are you located in ?</div>
+      <div class="modal-body Register">
+        
+      <div class="scroll">
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_NC.svg">  
+            Northern Cape
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_EC.svg">  
+            Eastern Cape
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_FS.svg">  
+            Free State
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_GP.svg">  
+            Gauteng
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_KZN.svg">  
+            Kwa-Zulu Natal
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_LP.svg">  
+            Limpopo
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_MP.svg">  
+            Mpumalanga
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_NW.svg">  
+            North West
+        </button>
+
+        <button class="select_province">
+            <img class="province_icons" src="images/provinces_icons/province_WC.svg">  
+            Western Cape
+        </button>
+        
+
+        </div>
+
+      </div>
+  </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btnlogin">Already have an Account</button>
+        <button type="button" class="btnlogin register">next</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="choose_subject">
+        <div class="heading_subjects">e-Assessment</div>
+
+    </div>
+
+
+
+    <div class="min_profile">
+
+         <div class="container_flex">
+             <img class="profile" src="images/profile/default.png">
+            <div class="information">
+                <span class="name">John Manishan</span><br>
+                <span class="school">Victoria Park High School, Port Elizabeth</span><br>
+                <span class="points"><img class="coin" src="images/icons/text-book-opened-from-top-view.svg"><b class="point_score">195</b><b>xp</b></span>
+            </div>
+         </div>
+        <div class="container_profile_2">
+            <div class="button_holder">
+       <a class="style" href="../sign_out.php" style="
+">Sign out</a>
+<a class="edit_information" href="profile.php">Edit Profile<img class="edit_P" src="images/icons/pencil-edit-button.svg"></a>
+       <!--<a class="style" href="history.php">WeeklyExam History</a>
+       a class="style" href="profile.php" style="
+    background-color: #9C27B0;
+    color: #fff;
+    box-shadow: 3px 3px 0px 0px #9c27b052;
+">edit Profile</a!-->
+
+
+
+
+
+    </div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="learner_showcase">
+ <h4 class="header_subject_coach">Supported Subjects<!--img class="imggg" src="assets/coach.svg"--></h4>
+
+  <div class="scrolling-wrapper"><!--subject_coach/business_studies.php-->
+    <button class="card" data-toggle="modal" data-target="#businessModal"><h2>Business studies</h2></button>
+    <button class="card" data-toggle="modal" data-target="#businessModal"><h2>Economics</h2></button>
+    <button class="card" data-toggle="modal" data-target="#businessModal"><h2>English FAL</h2></button>
+    <button class="card" data-toggle="modal" data-target="#lifescienceModal"><h2>Life science</h2></button>
+    <button class="card" data-toggle="modal" data-target="#physcialscienceModal"><h2>Physical science</h2></button>
+    <button class="card" data-toggle="modal" data-target="#geographyModal"><h2>Geography</h2></button>
+    <button class="card" data-toggle="modal" data-target="#geographyModal"><h2>History</h2></button>
+    <button class="card" data-toggle="modal" data-target="#geographyModal"><h2>Mathematics</h2></button>
+    <button class="card" data-toggle="modal" data-target="#geographyModal"><h2>Mathematics lit</h2></button>
+    <button class="card" data-toggle="modal" data-target="#argicultural_scienceModal"><h2>Argicultrual Science</h2></button>
+    <button class="card" data-toggle="modal" data-target="#geographyModal"><h2>Accounting</h2></button>
+    <!--button  class="card"><h2>Tourism</h2></button>
+    <button  class="card"><h2>Economics</h2></button>
+    <button  class="card"><h2>English FAL</h2></button>
+    <button  class="card"><h2>English HL</h2></button-->
+  </div>
+
+</div>
+
+<div class="modal fade" id="businessModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog subject_coach" role="document">
+    <div class="modal-content subject_coach">
+    <div class="modal-header">
+        <h5 class="modal-title select">Select Year of Past paper</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+    
+      
+      <div class="modal-body subject_coach">
+        
+        <div class="subject_coachContainer">
+
+            <a class="subject_coach_button" href="subject_coach/business_studies.php">
+                
+                <div class="subject_coach_title">2015</div>
+            </a>
+
+            <a class="subject_coach_button changecolor" href="subject_coach/challengers.php?subject=business_studies">
+                
+                <div class="subject_coach_title">2016</div>
+            </a>
+
+        </div>
+<div class="subject_coachContainer">
+
+            <a class="subject_coach_button" href="subject_coach/business_studies.php">
+                
+                <div class="subject_coach_title">2017</div>
+            </a>
+
+            <a class="subject_coach_button changecolor" href="subject_coach/challengers.php?subject=business_studies">
+                
+                <div class="subject_coach_title">2018</div>
+            </a>
+
+        </div>
+<div class="subject_coachContainer">
+
+            <a class="subject_coach_button" href="subject_coach/business_studies.php">
+                
+                <div class="subject_coach_title">2019</div>
+            </a>
+
+            <a class="subject_coach_button changecolor" href="subject_coach/challengers.php?subject=business_studies">
+                
+                <div class="subject_coach_title">All</div>
+            </a>
+
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="min_profile3">
+    <h4 class="challenges_header">Business studies - 2015</h4>
+
+<div class="scroll_container">
+   
+
+          <div class="challenge">
+
+  <a href="#" class="object_block_3">
+             <img src="images/subject_icons/business.svg" class="lock">    <span class="question1">November
+2015 Business Studies P1
+
+</span>
+        </a> 
+
+
+
+        <div class="information">
+                <span class="status"><span class="status" style="
+    background-color: #F44336;
+    padding: 3px;
+    color: #fff;
+">Failed</span></span><br>
+                <span class="school">0/20</span><br>
+                <span class="school">Taken: 2nd February 2019</span><br>
+                <a class="style-leader" data-toggle="modal" data-target="#H6" href="#">Leaderboard<img src="images/icons/group.svg" class="leader"></a>
+                <a class="style-leader report" data-toggle="modal" data-target="#H6" href="#">My Report<img src="images/icons/report.svg" class="leader"></a>
+
+        </div> </div>  <div class="challenge">
+
+  <a href="#" class="object_block_3">
+             <img src="images/subject_icons/business.svg" class="lock">    <span class="question1">February & March
+2015 Business Studies P1</span>
+        </a> 
+
+
+
+        <div class="information">
+                <span class="status"><span class="status" style="
+    background-color: #8BC34A;
+    padding: 3px;
+    color: #fff;
+">Passed</span></span><br>
+                <span class="school">6/12</span><br>
+                <span class="school">Taken: 20th January 2019</span><br>
+                <a class="style-leader" data-toggle="modal" data-target="#H30" href="#">Leaderboard<img src="images/icons/group.svg" class="leader"></a>
+                <a class="style-leader report" data-toggle="modal" data-target="#H6" href="#">My Report<img src="images/icons/report.svg" class="leader"></a>
+
+        </div> </div>  <div class="challenge">
+
+  <a href="#" class="object_block_3">
+             <img src="images/subject_icons/business.svg" class="lock">    <span class="question1">November 
+2014 Business Studies P1</span>
+        </a> 
+
+
+
+        <div class="information">
+                <span class="name">Business Studies</span><br>
+                <span class="school">MARKS: <b>300</b></span><br>
+                <span class="school">2015</span><br>
+                <span class="ExamTime">TIME: 20 mins</span>
+                <a class="accept_challenge" data-toggle="modal" data-target="#50" href="#">Take test</a>
+        </div> </div>   </div>
+
+   </div>
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+</body></html>
